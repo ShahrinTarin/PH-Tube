@@ -2,12 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PH-Tube</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    
+    <header>
+    <section>
+        <div class="navbar border-b-2 border-[#17171720] w-11/12 mx-auto py-5">
+            <div class="navbar-start">
+              <a class="text-xl"><img class="w-[150px]" src="./asset/Logo.png" alt=""></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <label class="input">
+                    <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></g></svg>
+                    <input type="search" required placeholder="Search"/>
+                  </label>
+            </div>
+            <div class="navbar-end">
+              <a class="btn bg-[#FF1F3D] text-white text-md rounded-md hover:bg-[#6d444a]">Sort By View</a>
+            </div>
+          </div>
+
+    </section>
+    <nav>
+     <div id="category-container" class="flex justify-center items-center gap-6 py-5  w-11/12 mx-auto">
+        <button class="btn">All</button>
+        
+        
+     </div>
+    </nav>
+</header>
+
+
+<script src="./script/script.js"></script>
 </body>
 </html>
